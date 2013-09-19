@@ -1,0 +1,22 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Calories to Burpees" icon="KS_nav_ui.png">
+			<Window title="Calories to Burpees">
+				<Label class="labelKCal">Calories:</Label>
+				<TextField id="inputKCal" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputKCal"/>
+				<Label class="labelBurpees">Burpees:</Label>
+				<Label id="outputBurpees" class="outputBurpees"></Label>
+			</Window>
+		</Tab>
+		<Tab title="Configure" icon="KS_nav_views.png">
+			<Window title="Configure">
+				<Label class="labelHeight">Height in inches:</Label>
+				<TextField id="inputHeight" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputHeight"/>
+				<Label class="labelWeight">Weight in pounds:</Label>
+				<TextField id="inputWeight" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputWeight"/>
+				<Label class="labelJHeight">Jump Height per Burpee (Avg):</Label>
+				<TextField id="inputJumpHeight" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputJHeight"/>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

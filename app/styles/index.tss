@@ -1,0 +1,57 @@
+"Window": {
+	backgroundColor: "#fff"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+},
+".labelHeight": {
+	top: "10dp",
+	left: "10dp"
+},
+".inputHeight": {
+	top: "35dp",
+	left: "10dp",
+	width:"80dp"
+},
+".labelWeight": {
+	top: "65dp",
+	left: "10dp"
+},
+".inputWeight": {
+	top: "90dp",
+	left: "10dp",
+	width:"80dp"
+},
+".labelJHeight": {
+	top: "120dp",
+	left: "10dp"
+},
+".inputJHeight": {
+	top: "145dp",
+	left: "10dp",
+	width:"80dp"
+},
+".labelKCal": {
+	top: "25dp",
+	left: "10dp"
+},
+".inputKCal": {
+	top: "60dp",
+	left: "10dp",
+	width:"80dp"
+},
+".labelBurpees": {
+	top: "125dp",
+	left: "10dp"
+},
+".outputBurpees": {
+	top: "160dp",
+	left: "10dp"
+},
